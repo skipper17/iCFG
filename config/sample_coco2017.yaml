@@ -1,0 +1,6 @@
+height: 512  # default height of Stable Diffusion
+width: 512  # default width of Stable Diffusion
+num_inference_steps: 50  # Number of denoising steps
+guidance_scale: 3  # Scale for classifier-free guidance
+alpha: 2
+randomseed: 42  # Seed generator to create the inital latent noise

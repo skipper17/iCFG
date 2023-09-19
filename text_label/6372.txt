@@ -1,0 +1,1 @@
+A street sign is a circle with a cross through it.

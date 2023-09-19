@@ -1,0 +1,1 @@
+A view of a parking lot with parking meters.

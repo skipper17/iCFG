@@ -1,0 +1,1 @@
+A smart phone displays some text and a picture.

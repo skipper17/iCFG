@@ -1,0 +1,1 @@
+A crate on top of a car holding various luggage.

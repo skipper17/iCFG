@@ -1,0 +1,1 @@
+A clock that has a second clock for the second hand.

@@ -1,0 +1,1 @@
+A coin meter that is next to a ladder with balls on it.

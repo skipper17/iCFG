@@ -1,0 +1,1 @@
+A speed detector displays the current speed of a car

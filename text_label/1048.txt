@@ -1,0 +1,1 @@
+A zebra showing the left side of itself on a field.

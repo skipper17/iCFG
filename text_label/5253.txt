@@ -1,0 +1,1 @@
+A number of vehicles waiting at an intersection.

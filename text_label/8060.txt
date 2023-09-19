@@ -1,0 +1,1 @@
+A station with departing times on the board.

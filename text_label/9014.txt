@@ -1,0 +1,1 @@
+A baseball game showing a batter waiting for a pitch.

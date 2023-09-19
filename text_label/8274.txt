@@ -1,0 +1,1 @@
+Pitcher in a baseball game tries to out a player attempting to steal base.

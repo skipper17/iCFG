@@ -22,7 +22,7 @@ import argconfig
 
 def main(args):
     #path decision
-    path = "guidance_scale_" + str(args.guidance_scale) + "_alpha_" + str(args.alpha) + "_" + str(time.time())[0:10]
+    path = "/home/data/iclr24out/guidance_scale_" + str(args.guidance_scale) + "_alpha_" + str(args.alpha) + "_" + str(time.time())[0:10]
     os.mkdir(path)
 
     # load model

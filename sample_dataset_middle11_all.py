@@ -27,7 +27,7 @@ COEF_MIDDLE = - 1
 
 def main(args):
     #path decision
-    path = "/home/data/iclr24out/middle11_all_guidance_scale_" + str(args.guidance_scale) + "_alpha_" + str(args.alpha) + "_" + str(time.time())[0:10]
+    path = "/home/data/iclr24out/middle11_all_guidance_scale_" + str(args.guidance_scale) + "_alpha_" + str(args.alpha) + "_steps_" + str(args.num_inference_steps) + "_" + str(time.time())[0:10]
     os.mkdir(path)
 
     # load model
@@ -137,9 +137,9 @@ if __name__ == "__main__":
                         help='no help')
     parser.add_argument('--num_inference_steps',type=int, default=50,
                         help='no help')
-    parser.add_argument('--guidance_scale',type=float, default=3,
+    parser.add_argument('--guidance_scale',type=float, default=3.0,
                         help='no help')
-    parser.add_argument('--alpha',type=float, default=3,
+    parser.add_argument('--alpha',type=float, default=0.25,
                         help='no help')
     parser.add_argument('--randomseed', type=int, default=42,
                         help='no help')

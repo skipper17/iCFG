@@ -98,7 +98,7 @@ def main(args):
             middle_embeddings[pos] = middle_embeddings[pos] * MIDDLE_POS 
         text_mean = text_embeddings.view(batch_size, -1).mean(1, keepdim=True)
         middle_mean = middle_embeddings.view(batch_size, -1).mean(1, keepdim=True)
-        middle_embeddings = middle_embeddings / middle_mean * text_mean
+        middle_embeddings = middle_embeddings / middle_mean.view(*middle_mean.shape, 1) * text_mean.view(*text_mean.shape, 1)
         text_embeddings = torch.cat([uncond_embeddings, middle_embeddings, text_embeddings])
 
         latents = torch.randn(
